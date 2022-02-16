@@ -17,7 +17,7 @@ class Homepage extends React.Component {
       <>
         {console.log(data)}
         <h2>Homepage</h2>
-        {this.homepageData()}
+        <div className="liste">{this.homepageData()}</div>
       </>
     );
   }

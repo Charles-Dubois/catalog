@@ -1,5 +1,5 @@
 import React from "react";
-import data from "./Info";
+import "./App.css";
 import Homepage from "./pages/Homepage";
 import Movie from "./pages/Movie";
 import { BrowserRouter, Switch, Route, Link } from "react-router-dom";

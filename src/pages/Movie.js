@@ -1,6 +1,7 @@
 import React from "react";
 import data from "../Info";
 import { Link } from "react-router-dom";
+
 class Movie extends React.Component {
   //le titre, le réalisateur, les acteurs, l'affiche et la description
   constructor() {
