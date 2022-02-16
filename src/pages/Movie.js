@@ -3,10 +3,8 @@ import data from "../Info";
 import { Link } from "react-router-dom";
 
 class Movie extends React.Component {
-  //le titre, le réalisateur, les acteurs, l'affiche et la description
   constructor() {
     super();
-    this.state = {};
     this.movieActor = this.movieActor.bind(this);
   }
 
@@ -19,7 +17,7 @@ class Movie extends React.Component {
   render() {
     return (
       <>
-        <Link to="/">Home page</Link>
+        <Link to="/">Homepage</Link>
         <p> id: {this.props.match.params.id}</p>
 
         <h2>{data.title}</h2>

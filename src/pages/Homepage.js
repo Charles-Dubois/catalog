@@ -15,7 +15,6 @@ class Homepage extends React.Component {
   render() {
     return (
       <>
-        {console.log(data)}
         <h2>Homepage</h2>
         <div className="liste">{this.homepageData()}</div>
       </>
